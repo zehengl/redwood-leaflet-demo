@@ -1,0 +1,13 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+@import '~leaflet/dist/leaflet.css';
+
+.leaflet-container {
+  height: 50vw;
+  width: 100%;
+}
