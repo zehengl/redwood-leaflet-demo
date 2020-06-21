@@ -27,6 +27,12 @@ const AppLayout = ({ children }) => {
                       Home
                     </Link>
                     <Link
+                      to={routes.locations()}
+                      className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+                    >
+                      Admin
+                    </Link>
+                    <Link
                       to={routes.about()}
                       className="px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
                     >
@@ -79,6 +85,12 @@ const AppLayout = ({ children }) => {
                 className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
               >
                 Home
+              </Link>
+              <Link
+                to={routes.locations()}
+                className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700"
+              >
+                Admin
               </Link>
               <Link
                 to={routes.about()}

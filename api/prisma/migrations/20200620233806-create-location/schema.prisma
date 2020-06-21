@@ -1,6 +1,6 @@
 datasource DS {
   provider = "sqlite"
-  url      = env("DATABASE_URL")
+  url = "***"
 }
 
 generator client {
@@ -8,6 +8,9 @@ generator client {
   binaryTargets = env("BINARY_TARGET")
 }
 
+// Define your own datamodels here and run `yarn redwood db save` to create
+// migrations for them.
+// TODO: Please remove the following example:
 model Location {
   id          Int    @id @default(autoincrement())
   latitude    Float
