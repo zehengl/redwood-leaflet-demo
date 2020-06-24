@@ -8,6 +8,6 @@
 @import '~leaflet/dist/leaflet.css';
 
 .leaflet-container {
-  height: 50vw;
+  height: 70vh;
   width: 100%;
 }

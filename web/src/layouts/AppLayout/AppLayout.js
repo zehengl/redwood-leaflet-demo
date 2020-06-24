@@ -102,13 +102,6 @@ const AppLayout = ({ children }) => {
           </div>
         </nav>
 
-        <header className="bg-white shadow">
-          <div className="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-            <h1 className="text-3xl font-bold leading-tight text-gray-900">
-              Demo
-            </h1>
-          </div>
-        </header>
         <main>
           <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
             <div className="px-4 py-6 sm:px-0">
@@ -118,6 +111,16 @@ const AppLayout = ({ children }) => {
             </div>
           </div>
         </main>
+        <footer className="w-full border-t border-grey p-2 pin-b">
+          <div className="flex items-center justify-center w-screen">
+            <a href="https://www.netlify.com">
+              <img
+                src="https://www.netlify.com/img/global/badges/netlify-light.svg"
+                alt="Deploys by Netlify"
+              />
+            </a>
+          </div>
+        </footer>
       </div>
     </>
   )
