@@ -10,10 +10,6 @@ export const customIcon = new L.Icon({
   iconAnchor: [5, 55],
   popupAnchor: [10, -44],
   iconSize: [15, 40],
-  shadowUrl:
-    '.https://raw.githubusercontent.com/feathericons/feather/master/icons/map-pin.svg',
-  shadowSize: [68, 95],
-  shadowAnchor: [20, 92],
 })
 
 export const QUERY = gql`
